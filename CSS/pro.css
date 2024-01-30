@@ -1,0 +1,39 @@
+a:first-child
+{
+    color : red;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+a:nth-child(4)
+{
+    color : red;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+h1:nth-child(2)
+{
+    color : red;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+p:first-child
+{
+    color : red;
+    background-color: yellow;
+    text-decoration: none;
+} 
+
+p:nth-child(4)
+{
+    color : red;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+a::selection
+{
+
+}

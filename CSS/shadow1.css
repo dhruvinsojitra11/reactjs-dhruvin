@@ -1,0 +1,33 @@
+.b1 {
+  background-color: #111827;
+  border: 2px solid transparent;
+  border-radius: .75rem;
+  box-sizing: 40px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  user-select:none;
+  touch-action: manipulation;
+  width: auto;
+  transition : transform .5s ease-out;
+  transform: translate(8px,8px);
+  z-index: -1 ;
+}
+.b1:hover {
+  background-color: #374151;
+}
+
+.main1
+{
+  margin-left:160px;
+  font-size: 60px;
+  color: red;
+  back
+}
+ 

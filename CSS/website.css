@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    background: #fff;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+   margin-top: 5px;
+   margin-left: 2%;
+   margin-right: 80px;
+}
+
+.nav_bar
+{
+    display: flex;
+    width: 20%;
+}
+
+.nav_bar a
+{
+    font-size: 18px;
+    color: #343F52;
+    text-decoration: none;
+    padding: 24px 12px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
