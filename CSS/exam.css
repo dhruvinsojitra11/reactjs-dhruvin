@@ -1,0 +1,283 @@
+/* EXAM   */
+
+/* NAME : SOJITRA DHRUVIN MUKESHBHAI */
+/* BATCH : 2 TO 4 */
+
+        1. B = Cascading Stle Sheets
+    
+        2. A = Style
+
+        3. C = Width
+    
+        4. A = .class
+
+        5. C = line-height
+
+        6. B = #id
+
+        7. A = color
+
+        8. ()= head (LINK)
+
+        9. A = background-image
+
+        10. ()
+
+        11. C = font-size
+
+        12. C = h1{} 
+
+        13. D = letter-spacing
+
+        14. B = parent-element > {}
+
+        15. A = border-radius
+
+        16. A = .class1 , .class2 {}
+
+        17. B = box-shadow
+
+        18. C = *{}
+
+        19. B = vertical-align
+
+        20. A = z-index
+
+        21. B = ::state
+
+        22. A = opacity
+
+        23. C = :first-child{}
+
+        24. A = position
+
+        25. A =  attribute[value]
+
+        26. A =  text-decoration
+
+        27. D = :last-element{}
+
+        28. A = background-position
+
+        29. B = :hover
+
+        30. A = word-spacing
+    
+    
+31. <style>
+            
+            p{
+                background-color : red;
+            }
+
+        </style>
+    
+32. <style>
+            
+            #para1{
+                color :red;
+            }
+
+        </style>
+ 33. <style>
+
+            .colortext{
+                color : red;
+            }
+
+        </style>
+
+34. <style>
+        *
+</style>
+<body>
+<h1>This is a heading</h1>
+<h2>This is a smaller heading</h2>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+</body>
+
+35. <style>
+       *
+</style>
+<body>
+<h1>This is a heading</h1>
+<h2>This is a smaller heading</h2>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+</body>
+
+36. <head> 
+
+<link rel="stylesheet" href="mystyle.css">
+
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+</body>
+
+37. <style>
+
+body{
+background-color : red;
+}
+</style>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+</body>
+
+38. 
+<body  style="background-color: red">
+<h1>This is a heading</h1>
+
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+</body>
+
+39. <style>
+p{
+color : red;
+}
+</style>
+
+40. <style>
+h1 {
+background-color : lightblue;
+}
+</style>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+</body>
+
+41. <style>
+body {
+background-image : url(paper.gif);
+}
+</style>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+</body>
+
+42. <style>
+body {
+background-image: url("img_tree.png");
+background-repeat: repeat-x;
+}
+</style>
+
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+</body>
+
+43. <style>
+            body {
+            background-image: url("img_tree.png");
+            
+            :
+            
+            ;
+                                                                    *
+            :
+            
+            ;
+            
+            }
+            </style>
+            <body>
+            <h1>This is a heading</h1>
+            
+            <p>This is a paragraph</p>
+            <p>This is a paragraph</p>
+            </body>
+
+44. <style>
+        body {
+            background-image: url("img_tree.png");
+            position: fixed;
+            }
+        </style>
+
+45. <style>
+            p {
+                border: 4px;
+                text-decoration: dotted;
+                border-color: red;
+            }
+            </style>
+            <body>
+                <h1>This is a heading</h1>
+                <p>This is a paragraph</p>
+                <p>This is a paragraph</p>
+            </body>
+
+ 46. <style>
+            p {
+            border-style: dotted;
+            border-width: 4px;
+            border-color: red;
+            }
+            </style>
+            <body>
+                <h1>This is a heading</h1>
+                <p>This is a paragraph</p>
+                <p>This is a paragraph</p>
+            </body>
+
+ 47. <style>
+            p {
+            border-left : dotted;
+            }
+            </style>
+            <body>
+                <h1>This is a heading</h1>
+                <p>This is a paragraph</p>
+                <p>This is a paragraph</p>
+            </body>
+
+ 48. <style>
+            p {
+            border: 2px solid red;
+            border-radius: 5px;   
+            }
+            </style>
+            <body>
+                <h1>This is a heading</h1>
+                <p>This is a paragraph</p>
+                <p>This is a paragraph</p>
+            </body>
+
+ 49. <style>
+            h1 {
+                margin-left: 20px; 
+            }
+            </style>
+
+            <body>
+                <h1>This is a heading</h1>
+                <p>This is a paragraph</p>
+                <p>This is a paragraph</p>
+            </body>
+
+50. <style>
+            h1 {
+            margin: 20px 40px;
+            }
+            </style>
+            <body>
+                <h1>This is a heading</h1>
+                <p>This is a paragraph</p>
+                <p>This is a paragraph</p>
+            </body>
+    --> 
+</body>
+</html>
