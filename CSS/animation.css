@@ -1,0 +1,74 @@
+.card1{
+    margin: 100px;
+    height: fit-content;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden; 
+}
+
+
+    .card2{
+        margin: 100px;
+        height: fit-content;
+        width: 300px;
+        height: 500px;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid black;
+        overflow: hidden; 
+}
+
+.card3{
+    margin: 100px;
+    height: fit-content;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden; 
+}
+.div{
+    display: flex;
+}
+
+*{
+     /* background: url("/reactjs-dhruvin/HTML/brown.jpeg");  */
+    text-align: left;
+}
+
+
+.mainimg1{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    /* overflow: hidden; */
+}
+img:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+.mainimg1 .text1 p{
+    position: absolute;
+    color:yellow;
+    top: 10px;
+    left: 10px;
+}
+.mainimg1 .text1 h1{
+    position: absolute;
+    color: cyan;
+    margin-left: 10px;
+    top: 59px;
+    font-size: 20px;
+    text-shadow: 20px 15px 10px black;
+}
+.mainimg1 .text1 h2{
+    position: absolute;
+    color: rgb(245, 245, 245);
+    margin-left: 10px;   
+    top: 120px;
+    text-shadow: 20px 15px 10px black;
+}

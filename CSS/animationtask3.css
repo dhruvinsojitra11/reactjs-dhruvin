@@ -1,0 +1,41 @@
+body{
+    margin: 100px;
+}
+
+  .maindiv{
+    height: 200px;
+    width: 350px;
+    background-color:#135418a4;
+    margin: auto;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+
+  }
+
+  .maindiv:hover
+  {
+    animation-name: scale;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    /* animation-direction: alternate; */
+    /* opacity: 1; */
+  }
+  
+
+  @keyframes scale {
+  0%
+  {
+    transform: scale(1);
+  }
+  50%
+  {
+    transform: scale(2.5);
+  }
+
+  100%
+  {
+    transform: scale(2);
+  }
+}
