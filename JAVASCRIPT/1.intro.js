@@ -1,4 +1,4 @@
-// console.log("dhruvin sojitra");
+// console.log("Smit Umaraliya");
 
 /* Var , Let and Const */
 
@@ -6,14 +6,14 @@
 
 /* Var is globle Vairable */
 
-// var myName = "dhruvin";
+// var myName = "smit";
 // var myName = "hunter";
 // console.log(myName);
 
 // {} - Scope
 
 // {
-//     var myName = "dhruvin";
+//     var myName = "smit";
 //     console.log(myName);
 // }
 
@@ -28,7 +28,7 @@
 // console.log(food3);
 
 
-/* Let */
+/* Let Keyword */
 
 /* Let is block-scope vairable */
 
@@ -54,6 +54,14 @@
 
 // console.log(a+b+c);
 
+/* Javascript is Case-sensitive Language */
+
+// let a = true;
+// let A = false;
+
+// console.log(a);
+// console.log(A);
+
 /* Const Keyword*/
 
 // const x = "Surat";
@@ -66,11 +74,3 @@
 //     const y = "Bhavnager";
 //     console.log(x + " " + y);
 // }
-
-/* Javascript is Case-sensitive Language */
-
-// let a = true;
-// let A = false;
-
-// console.log(a);
-// console.log(A);

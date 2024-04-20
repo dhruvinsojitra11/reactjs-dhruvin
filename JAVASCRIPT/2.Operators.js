@@ -4,7 +4,7 @@
 // Variables :- Value Change
 
 // const Arr = ["Javascript"]
-// let Arr = ["HJavascript"]
+// let Arr = ["Javascript"]
 
 // console.log(Arr);
 
@@ -22,7 +22,7 @@
 // console.log("Option-3");
 
 // function green(){
-//     console.log("Hello JAvascript");
+//     console.log("Hello Javascript");
 // }
 
 // green();
