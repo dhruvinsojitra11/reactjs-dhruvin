@@ -287,7 +287,7 @@
 
 /* 1. Display Alert in JavaScript */
 
-let Name = "Smit";
+let Name = "Dhruvin";
 
 alert("Hello, " + Name);
 

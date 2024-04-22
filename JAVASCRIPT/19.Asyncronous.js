@@ -10,8 +10,8 @@
     }
 
     const person = {
-        firstName : "smit",
-        lastName : "Umaraliya",
+        firstName : "dhruvin",
+        lastName : "sojitra",
         age : 19
     }
 

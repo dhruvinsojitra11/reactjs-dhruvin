@@ -1,4 +1,4 @@
-// console.log("Smit Umaraliya");
+// console.log("dhruvin sojitra");
 
 /* Var , Let and Const */
 
@@ -6,14 +6,14 @@
 
 /* Var is globle Vairable */
 
-// var myName = "smit";
+// var myName = "dhruvin";
 // var myName = "hunter";
 // console.log(myName);
 
 // {} - Scope
 
 // {
-//     var myName = "smit";
+//     var myName = "dhruvin";
 //     console.log(myName);
 // }
 
@@ -32,16 +32,16 @@
 
 /* Let is block-scope vairable */
 
-// let FName = "smit";
-// let FName2 = "Umaraliya";
+// let FName = "dhruvin";
+// let FName2 = "sojitra";
 // let sum = FName + " " + FName2;
 // console.log(sum);
 
 /* let and const keyword ECMA-6 (2015) */
 
 // {
-//     let FName = "Smit";
-//     let FName2 = "Umaraliya";
+//     let FName = "dhruvin";
+//     let FName2 = "sojitra";
 //     let sum = FName + " " + FName2;
 //     console.log(sum);
 // }
