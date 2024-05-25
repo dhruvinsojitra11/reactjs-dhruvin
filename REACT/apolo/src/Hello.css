@@ -1,0 +1,38 @@
+.col{
+    border: 1px solid black;
+    background-color: gray;
+}
+.cols{
+    border: 3px solid #fff;
+    background-color: skyblue;
+}
+
+.colu{
+    border: 3px solid #fff;
+    background-color: green;
+}
+
+.colo{
+    border: 3px solid #fff;
+    background-color: blue;
+}
+
+.coloo{
+    border: 3px solid #fff;
+    background-color: darkblue;
+}
+
+.colool{
+    border: 3px solid #fff;
+    background-color: purple;
+}
+
+.colol{
+    border: 3px solid #fff;
+    background-color: fuchsia;
+}
+
+.coolol{
+    border: 3px solid #fff;
+    background-color: maroon;
+}

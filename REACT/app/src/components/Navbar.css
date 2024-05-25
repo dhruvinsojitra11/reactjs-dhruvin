@@ -1,0 +1,187 @@
+.ex {
+    border: 1px solid black;
+    background-color: gray;
+}
+
+.cols {
+    border: 3px solid #fff;
+    background-color: skyblue;
+}
+
+.colu {
+    border: 3px solid #fff;
+    background-color: green;
+}
+
+.colo {
+    border: 3px solid #fff;
+    background-color: blue;
+}
+
+.coloo {
+    border: 3px solid #fff;
+    background-color: darkblue;
+}
+
+.colool {
+    border: 3px solid #fff;
+    background-color: purple;
+}
+
+.colol {
+    border: 3px solid #fff;
+    background-color: fuchsia;
+}
+
+.coolol {
+    border: 3px solid #fff;
+    background-color: maroon;
+}
+
+.cool {
+    background-color: darkcyan;
+    border: 3px solid #fff;
+    color: darkcyan;
+}
+
+.cools {
+    border: 1px solid greenyellow;
+    background-color: #fff;
+    border-radius: 25%;
+}
+
+.bord {
+    display: flex;
+    gap: 1rem;
+}
+
+.boxs {
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-bottom: 9px;
+    color: green;
+}
+
+.btn {
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    background-color: #fff;
+}
+
+.btn:hover {
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    background-color: #fff;
+}
+
+.hello {
+    border: 2px solid darkmagenta;
+    background-color: darkmagenta;
+    color: #fff;
+    padding: 7px 15px;
+}
+
+.hello:hover {
+    border: 2px solid darkmagenta;
+    background-color: darkmagenta;
+    color: #fff;
+    padding: 7px 15px;
+}
+
+.hello:focus {
+    color: #fff;
+    background-color: darkmagenta;
+}
+
+.hell {
+    border: 2px solid skyblue;
+    background-color: skyblue;
+    color: #fff;
+    padding: 7px 15px;
+}
+
+.hell:hover {
+    border: 2px solid skyblue;
+    background-color: skyblue;
+    color: #fff;
+    padding: 7px 15px;
+}
+
+.hell:focus {
+    color: #fff;
+    background-color: skyblue;
+}
+
+.br {
+    background-color: #fff;
+}
+
+.container {
+    text-align: center;
+    max-width: 1200px;
+}
+
+.Bas {
+    color: #fff;
+    background-color: rgb(217, 80, 103);
+}
+
+:not(.btn-check)+.card-body .hell1 .btn:active {
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    color: #fff;
+}
+
+:not(.btn-check)+.card-body .btn:active {
+    border: 2px solid darkmagenta;
+    background-color: darkmagenta;
+    color: #fff;
+}
+
+:not(.btn-check)+.card-body .btn1 .btn:active {
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    background-color: #fff;
+}
+
+.console {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.alice {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.billy {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (width < 792px) {
+    .console {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .alice {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .billy {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width < 592px) {
+    .console {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .alice {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .billy {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
