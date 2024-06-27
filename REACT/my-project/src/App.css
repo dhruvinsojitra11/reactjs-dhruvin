@@ -1,0 +1,117 @@
+.help li:hover {
+    color: rgb(109, 150, 46);
+}
+
+li {
+    cursor: pointer;
+}
+
+#img {
+    height: 220px;
+    border-radius: 10px;
+}
+
+.span {
+    margin-left: 40px;
+}
+
+span:hover {
+    color: rgb(109, 150, 46);
+}
+
+#img:hover {
+    transform: translateY(-20px);
+    transition: all 0.7s ease;
+}
+
+.icon {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button {
+    color: blue;
+}
+
+a {
+    color: blue;
+}
+
+h3 {
+    color: rgb(109, 150, 46) !important;
+}
+
+.animation:hover {
+
+    transform: translateX(20px);
+    transition: all 0.7s ease;
+}
+
+#display {
+    display: none;
+    width: 96%;
+    height: 300px;
+    margin-left: 25px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px gray;
+    border-top-color: red;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#show {
+    display: none;
+    width: 950px;
+    padding: 20px 25px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#sho {
+    display: none;
+    width: 300px;
+    padding: 20px 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#shoo {
+    display: none;
+    width: 300px;
+    padding: 20px 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.main-overlay {
+    height: 300px;
+    width: 450px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.main-overlay img {
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+
+.main-overlay:hover .overlay {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 1s ease-in-out;
+
+}
+
+
+.main-overlay:hover img {
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+}

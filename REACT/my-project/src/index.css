@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.right {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+  animation-name: left;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.left1 {
+  position: absolute;
+  top: -90px;
+  right: 80px;
+  animation-name: down;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+
+.lemon {
+  position: absolute;
+  right: 176px;
+  top: 40px;
+  animation-name: lemon;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+.fresh2 {
+  position: absolute;
+  inset: 0;
+  left: 540px;
+  top: 40px;
+  margin: auto;
+  animation-name: fresh2;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+.tree {
+  position: absolute;
+  top: 208px;
+  animation-name: tree;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.tree1 {
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  animation-name: tree1;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.pan {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+.pan1 {
+  position: absolute;
+  inset: 0;
+  left: 830px;
+  margin: auto;
+}
+
+.pan2 {
+  position: absolute;
+  inset: 0;
+  bottom: -400px;
+  left: 830px;
+  margin: auto;
+}
+
+
+
+.pan:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s linear;
+}
+
+.pan1:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s linear;
+}
+
+.pan2:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s linear;
+}
+
+
+
+
+/* absolute right-44 top-10 */
+
+@keyframes down {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(80px);
+  }
+}
+
+@keyframes lemon {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes left {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-80px);
+  }
+}
+
+@keyframes fresh2 {
+  from {
+    transform: translateY(-20px);
+  }
+
+  to {
+    transform: translateY(40px);
+  }
+}
+
+@keyframes tree {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes tree1 {
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform: translateX(100px);
+  }
+}
